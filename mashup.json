@@ -1,0 +1,264 @@
+{
+  "id": "sigf/supercraft-superhot-pokemon-mod-10",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 10: SUPERHOT × Pokémon",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Pokémon with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "pokemon",
+      "role": "guest",
+      "label": "Pokémon",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-pokemon-mod-10.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/circle_05.png",
+              "sha256": "2774f6e19a01a76fa0f168995d851a47cee3b8a13def80206f131c4aca387e20"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/dirt_01.png",
+              "sha256": "5d1ca29c42af4803a922bd8d93e678d5890b937762c20f69968701762954da42"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/fire_01.png",
+              "sha256": "393ec243e3621df1a490c07dc3f3311cdc7f08bda2fec3d480ec039f3bf26f35"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_02.png",
+              "sha256": "0a332604e0a2ef2773d0002aa6ae8f6eecec6d5de5e46df64466e3ee4b281bb3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_05.png",
+              "sha256": "29d6d216507ee655225e9dc571c75f29382d4130d436c194f8b5e8637ad808cc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/light_01.png",
+              "sha256": "6eed3e67ee515ea08236a7d1487cdbd8b585fb24750e8d0440b4df985869222e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/smoke_04.png",
+              "sha256": "386a6948f41eb257f9bcdfcce6491a02ba3945306ebf91f701488b6152a5a014"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/spark_01.png",
+              "sha256": "2087c35178fd01c49a101e3a69805424e5e5bb6d2d3aad01352d0c3a21e9de5c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/spark_05.png",
+              "sha256": "737fc515ff4432a83e38dbc7e8996487b5e852e9796e12ae81584933f67bf3e4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/star_04.png",
+              "sha256": "efb6d8caefb6a8261a22f9d10e7be191de52a1d00114570c1757b1ae218f2946"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/star_06.png",
+              "sha256": "28874eaaf89a2d0a0c02cea8788a68f153f8316f615ac90be87e2b4f5c1ae8e5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/trace_01.png",
+              "sha256": "d9eef80ae3d776c17d3067c24b68acee4897d0d3ebf87b45011abb245e97a693"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/twirl_02.png",
+              "sha256": "bb83c82194bb265b8c4f30220df9b0f103d6128fdbd03fbca2d5b4215392e777"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/ball.png",
+              "sha256": "4b469dbfe1afb922c142d7e44817f49fbaec134718890cbd97d33af694d882b3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/cactus.png",
+              "sha256": "c02150f8f5ef63e92fa3810cf56ef418f08094a38bdfb0ca26086d3349f3ce14"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/penguin.png",
+              "sha256": "c0ade04b3b2f1bbec67b5f61ada2c1fd43f8aa8d582a2479f5872a9555544ea4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/yellowdragon.png",
+              "sha256": "94a66718aa5d2e76e573f638855c8f325318b4f32119290669e00c4d6c751b40"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/badge.wav",
+              "sha256": "c7ebf02273e373a6047cc1b7fd46264ae48d88c83a796ae08024861eedb2a074"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/blip.wav",
+              "sha256": "747372adf9b1213be50fbdb647b1a42a5ec2b6b00b37616f6bfb37263caae768"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/bounce.wav",
+              "sha256": "112350edd84fea945b74585130710236168768ed4f696f54f19ae7170191dd1f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/capture.wav",
+              "sha256": "f0eeee2562173c0e51b1c8cbbf5e07ceac658054a1147219033f8aa005dbd9f0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/caught.wav",
+              "sha256": "e6f419afeeff64b473b5b74cc2d6fa3b4d060e0c96716c876e13e3dd6f100141"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/cry_cactus.wav",
+              "sha256": "2750b6689cfe2634147a6eb7a2fd6405165378162754821dce67fb7acc1d953f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/cry_dragon.wav",
+              "sha256": "b5f4546c9e17908a9906192aa7eaa7b862b830623d86c793256465bc1565256f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/cry_penguin.wav",
+              "sha256": "fed8b318be8e052a4ae069ee9bb0f4007f982e25f58910241aba34f1a1fa531b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/faint.wav",
+              "sha256": "88c3ed745683c519dad2f7a6e4b9eb940ff3f3a293dc07e0056d6ebf058962e9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fire.wav",
+              "sha256": "13cde63d5d9d0a6f568a441b74736c79244b0c146aeb6a270a228d5e693c8824"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/glass.wav",
+              "sha256": "d1c2be68b57b7a0657a51a6df19464d90ce0c700e653084c5b976c121c397e03"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/hit.wav",
+              "sha256": "949d77d8070dba27ef03be391e79479536f9e474a84ed200d1ea819456996ec8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/open.wav",
+              "sha256": "59f26deab361a53c62cfd55a1f07cc81b0a17bbeb6bee774459f44be0fe58b63"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/splash.wav",
+              "sha256": "624a4c6eca39deb4bda74b85fbd6fb7fb22ee766f3590cbe17bcb70a21ad5cb0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/throw.wav",
+              "sha256": "3128b39ccc4211d209566efa696dc1fcb87b09f1ce65b9a68df6028fed20950a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/water.wav",
+              "sha256": "f36c7915818299b663a9d5a7fd0e212a914ea650f7fa7b987b5d6940f90f4b48"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/wobble.wav",
+              "sha256": "67858011e6a3654c7a5ab2aa8999c8f439e2edce35fa5b50961231560ba48ec9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/ball.png",
+              "sha256": "3154ad05a6afc211b8fcd333e7deeb5ce1afa4dae69413427ba38fca279a66dc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/cactus.png",
+              "sha256": "25216e5ccbe726e3bb2678fad8b78abf4712d4c7d73b1807f7206ac795e26b0f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/penguin.png",
+              "sha256": "5c65fc9c7df34b754b7e38796306c7a61e17e8637839161cb1f774b67bed0bf0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/yellowdragon.png",
+              "sha256": "9c6294d5ab65dd3f508c59a6982f1017ddf0d128a3a80ce924b85b38d86f9815"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/badge.png",
+              "sha256": "675e55400ddae68e4def668f83e008fc37009d66e2c1ffe8bcb0fbfffa3323a4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/ball.png",
+              "sha256": "1b30eca7282ee0d80cd96a572a3b9798a05fbd8bb14f88b7cf7ddf5270e9dc87"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/scorchling_sil.png",
+              "sha256": "151dba798aa4e8f4bcdd1e124aab51d6739c421192e4ae250f69095db2033ac3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/scorchling.png",
+              "sha256": "03cddf64e784dca1fa37c9303cfdebd416263bcf3700cb4fbf54ebb342987482"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/spiklet_sil.png",
+              "sha256": "6d25d7dfda8dbb41a9072d5f9c2eaa4e08384adb27353b6fab0d751969cd9d5a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/spiklet.png",
+              "sha256": "161b139e83f1f635733a13bea5f945b7f4f6fd4c8650f63e1bcd7ca23540f110"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/waddlewave_sil.png",
+              "sha256": "37d8edeb02a448f9f41e7e161c00648c526072878dae2468434bbe4298f083e9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/waddlewave.png",
+              "sha256": "af52e13dfe2fda9b08ceae629aee6927fa699f86a9bebebf991eeeca655514b8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "c7d82b4aac1b0cfbeabdaf9a896deb672aec8e3e0047c8a6255a326263461290"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "252fb6a137cc2b5650c96bd413673605d8817d16086447587abd0f5ac2df10f3"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-pokemon-mod-10/releases/download/v1.0.0/supercraft-superhot-pokemon-mod-10.zip",
+          "sha256": "8c518beb50b2252706a85d60d080c01ac93a699c4eab97f3743b3b1db86de5e4",
+          "size": 3974539
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-pokemon-mod-10.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-pokemon-mod-10/releases/download/v1.0.0/supercraft-superhot-pokemon-mod-10.zip",
+      "sha256": "8c518beb50b2252706a85d60d080c01ac93a699c4eab97f3743b3b1db86de5e4",
+      "size": 3974539
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-pokemon-mod-10",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:54.312Z"
+}
