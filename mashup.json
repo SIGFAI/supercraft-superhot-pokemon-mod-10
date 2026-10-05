@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SUPERCRAFT, mod 10: SUPERHOT × Pokémon",
   "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Pokémon with a funny twist of your own.",
+  "how_to_play": [
+    "Catch the three monsters that escaped Prof. Pine's lab, then send them out to shatter the red men.",
+    "Press F to throw a SUPERBALL; punch or shoot a monster first, weak ones are easier to catch.",
+    "Press G to send out a caught monster; it fights only while you move.",
+    "Shatter enough red men with your monsters to earn the Crystal Badge."
+  ],
   "kind": "mashup",
   "games": [
     {
